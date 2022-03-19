@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -598,11 +599,12 @@ table{
     background-repeat: no-repeat;
 }
 .feedback-container{
-    width: 1000px;
-    /*border: 1px solid tomato;*/
-    /*margin: 0px auto;*/
-    display: inline-block;
-    margin-left: 180px;
+    max-width: 1100px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    /* border: 1px solid tomato; */
 }
 .feedback-container h4{
     color: #eb4435;
