@@ -30,13 +30,16 @@ li{
     margin-left: 30px;
 }
 .mb-1{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .mb-2{
     margin-bottom: 40px;
 }
 .mt-1{
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: -20px;
 }
 .br-1{
     border-radius: 5px;
@@ -46,9 +49,9 @@ li{
 }
 /*header start*/
 header.header-area {
-    border: 2px solid #f2f2f2;
+    /*border: 2px solid #f2f2f2;*/
     padding: 30px 0px;
-    box-shadow: 2px 2px 5px #f2f2f2;
+    /*box-shadow: 2px 2px 5px #f2f2f2;*/
 }
 .container {
     width: 1200px;
@@ -56,12 +59,11 @@ header.header-area {
 }
 .header {
     display: flex;
-    justify-content: space-evenly;
-    flex-flow: wrap row;
+    justify-content: space-between;
     align-items: center;
 }
 .logo {
-    padding-left: 70px;
+    /*padding-left: 70px;*/
 }
 .menu {
     padding-left: 85px;
@@ -106,6 +108,7 @@ ul li a.active {
     font-weight: 600;
     font-family: poppins,sans-serif;
     text-transform: uppercase;
+    margin-left: 80px;
 }
 /*header end*/
 /*Banner start*/
@@ -121,25 +124,25 @@ ul li a.active {
     background-position: bottom;
     display: flex;
     margin: 0px auto;
-    height: 600px;
+    height: 800px;
     justify-content: center;
-    align-items: center;
 }
 .text {
     text-align: center;
 }
 .text h3 {
     font-family: poppins,sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600;
     color: black;
-    margin-top: 180px;
+    margin-top: 135px;
 }
 .text p{
     font-size: 23px;
     font-family: poppins,sans-serif;
-    margin-top: 40px;
+    margin-top: 35px;
     color: #959596;
+    line-height: 34px;
 }
 .btn{
     border: 1px solid #d2d2d2;
@@ -154,7 +157,7 @@ ul li a.active {
     box-shadow: 0px 35px 100px 0px 1 #ddd;
 }
 .btn input[type="text"]{
-    font-size: 16px;
+    font-size: 18px;
    /* display: block;*/
     width: 100%;
     padding: 12px 24px;
@@ -164,7 +167,7 @@ ul li a.active {
     font-family: Roboto,sans-serif;
 }
 .btn input[type="email"]{
-    font-size: 16px;
+    font-size: 18px;
     /*display: block;*/
     width: 100%;
     padding: 12px 24px;
@@ -194,13 +197,12 @@ ul li a.active {
     width: 1200px;
    /* border: 1px solid black;*/
     margin: 0px auto;
-    margin-top: 120px;
-    margin-bottom: 130px;
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 .services-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .service-text{
     width: 50%;
@@ -220,14 +222,15 @@ ul li a.active {
     font-weight: 600;
     color: black;
     margin-bottom: 50px;
+    line-height: 58px;
 }
 .service-text p{
-    font-size: 17px;
+    font-size: 16px;
     font-family: Roboto,sans-serif;
     color: #999191;
     font-weight: 500;
     margin-bottom: 85px;
-    line-height: 22px;
+    line-height: 30px;
 }
 .service-text  a{
     color: white;
@@ -250,14 +253,14 @@ ul li a.active {
     width: 50%;
 }
 .border-1{
-    border: 2px solid #d2d2d2;
+    /*border: 2px solid #d2d2d2;*/
     border: none;
-    box-shadow: 20px 20px 50px 15px #f2f2f2;
+    box-shadow: -10px 4px 44px 33px #f2f2f2;
     width: 45%;
-    padding-top: 30px;
-    padding-left: 39px;
-    padding-bottom: 40px;
-    padding-right: 70px;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 38px;
 }
 .border-1 img{
     margin-top: 20px;
@@ -300,8 +303,11 @@ ul li a.active {
     display: flex;
     justify-content: space-between;
 }
+.img {
+    margin-left: -50px;
+}
 .des-text {
-    margin-left: 130px;
+    margin-left: 200px;
 }
 .des-text h4 {
     font-size: 16px;
@@ -368,7 +374,7 @@ ul li a.active {
     margin-bottom: 150px;
 }
 .seo-container{
-    width: 1100px;
+    width: 1200px;
     background-color: #f0f2f4;
     margin: 0px auto;
 }
@@ -378,26 +384,28 @@ ul li a.active {
     flex-wrap: wrap;
 }
 .img-left{
-    width: 33%;
+    width: 20%;
     margin-top: 250px;
 }
 .seo{
-    width: 33%;
+    width: 60%;
     align-self: center;
+    text-align: center;
 }
 .seo h2{
-    font-size: 32px;
+    font-size: 46px;
     font-family: poppins,sans-serif;
     font-weight: 600;
     color: black;
     line-height: 40px;
     margin-bottom: 36px;
+    line-height: 60px;
 }
 .seo p{
     color: #999191;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Roboto,sans-serif;
-    line-height: 28px;
+    line-height: 32px;
     font-weight: 400;
     margin-bottom: 75px;
    
@@ -418,7 +426,7 @@ ul li a.active {
     color: white;
 }
 .img-right{
-    width: 33%;
+    width: 20%;
     align-self: flex-end;
     margin-top: 250px;
 }
@@ -467,7 +475,7 @@ ul li a.active {
     color: #eb4435;
     text-decoration: underline;
 }
- .right-nav h3 a .active-cls{
+ .right-nav h3 a.active-cls{
     color: #eb4435;
     text-decoration: underline;
 }
@@ -482,7 +490,7 @@ ul li a.active {
 
 /*work title start*/
 .work-title{
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 .work-container{
@@ -599,7 +607,7 @@ table{
     background-repeat: no-repeat;
 }
 .feedback-container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -729,15 +737,23 @@ table{
    margin: 0px auto;
 }
 .pricing-iteam-flex{
-    width: 1200px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .pricing-border{
     border: 1px solid #d2d2d2;
     text-align: center;
     padding: 50px 26px;
     width: 33.33%;  
+}
+.pricing-border1{
+    /*border: 1px solid #d2d2d2;*/
+    text-align: center;
+    padding: 50px 26px;
+    width: 33.33%; 
+    margin-top: -20px;
+    margin-bottom: -20px; 
+    box-shadow: 8px 10px 17px 0px;
 }
 .enterprenur .title{
     color: black;
@@ -762,6 +778,10 @@ table{
 .enterprenur .amount h2 sub{
     font-size: 20px;
     font-weight: 400;
+}
+hr{
+    width: 80%;
+    margin: 0px auto;     
 }
 .content .list li{
     list-style: none;
@@ -795,6 +815,10 @@ table{
     border-radius: 5px;
 }
 .footer-button a:hover{
+    background-color: #eb4435;
+    color: white;
+}
+.footer-button a.fb-active{
     background-color: #eb4435;
     color: white;
 }
@@ -907,7 +931,7 @@ table{
     margin-bottom: 120px;
 }
 .image-footer-container{
-    width: 1200px;
+    width: 1150px;
     margin: 0px auto;
 }
 .footer-image-flex{
@@ -1058,6 +1082,9 @@ table{
     background-color: black;
 }
 /*section 4 end*/
+.full-hr{
+    width: 100%;
+}
 /*big footer end*/
 
 /*footer start*/
